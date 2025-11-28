@@ -1,0 +1,91 @@
+{
+  "hash": "5945fa1a",
+  "configHash": "854116b0",
+  "lockfileHash": "d402c22f",
+  "browserHash": "9ac567e1",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "84d8010d",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "bf4631ee",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "bc325560",
+      "needsInterop": false
+    },
+    "@angular/google-maps": {
+      "src": "../../../../../../node_modules/@angular/google-maps/fesm2022/google-maps.mjs",
+      "file": "@angular_google-maps.js",
+      "fileHash": "e7d7dff2",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "1d88ae18",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "cf483f37",
+      "needsInterop": false
+    },
+    "zone.js": {
+      "src": "../../../../../../node_modules/zone.js/fesm2015/zone.js",
+      "file": "zone__js.js",
+      "fileHash": "08b6e80c",
+      "needsInterop": true
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "8f1bdbc2",
+      "needsInterop": false
+    },
+    "@auth0/auth0-angular": {
+      "src": "../../../../../../node_modules/@auth0/auth0-angular/fesm2022/auth0-auth0-angular.mjs",
+      "file": "@auth0_auth0-angular.js",
+      "fileHash": "9ce3935b",
+      "needsInterop": false
+    },
+    "ag-grid-angular": {
+      "src": "../../../../../../node_modules/ag-grid-angular/fesm2022/ag-grid-angular.mjs",
+      "file": "ag-grid-angular.js",
+      "fileHash": "d214d7ac",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-YYFMLT4N": {
+      "file": "chunk-YYFMLT4N.js"
+    },
+    "chunk-7URXVB5Q": {
+      "file": "chunk-7URXVB5Q.js"
+    },
+    "chunk-QXTWHTY7": {
+      "file": "chunk-QXTWHTY7.js"
+    },
+    "chunk-UYU5RJ5G": {
+      "file": "chunk-UYU5RJ5G.js"
+    },
+    "chunk-WGQN7DY4": {
+      "file": "chunk-WGQN7DY4.js"
+    },
+    "chunk-UP37GWL3": {
+      "file": "chunk-UP37GWL3.js"
+    },
+    "chunk-WDMUDEB6": {
+      "file": "chunk-WDMUDEB6.js"
+    }
+  }
+}

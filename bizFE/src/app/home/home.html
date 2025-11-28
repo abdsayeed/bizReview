@@ -1,0 +1,26 @@
+<div class="container" style="margin-top: 70px;">
+  <h1>Home page</h1>
+  
+  <div class="mt-4">
+    @if (auth.isAuthenticated$ | async) {
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Welcome!</h5>
+          @if (auth.user$ | async; as user) {
+            <p class="card-text">You are logged in as: {{ user.name }}</p>
+            <p class="card-text">Email: {{ user.email }}</p>
+          }
+          <button class="btn btn-danger" (click)="logout()">Log Out</button>
+        </div>
+      </div>
+    } @else {
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Welcome to Biz Directory</h5>
+          <p class="card-text">Please log in to access all features.</p>
+          <button class="btn btn-primary" (click)="loginWithRedirect()">Log In</button>
+        </div>
+      </div>
+    }
+  </div>
+</div>

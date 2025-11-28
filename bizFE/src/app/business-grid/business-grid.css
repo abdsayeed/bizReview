@@ -1,0 +1,8 @@
+.container {
+  padding: 20px;
+}
+
+ag-grid-angular {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
